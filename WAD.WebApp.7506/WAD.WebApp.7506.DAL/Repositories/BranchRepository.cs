@@ -9,7 +9,8 @@ namespace WAD.WebApp._7506.DAL.Repositories
 {
     public class BranchRepository : BaseRepository, IRepository<Branch>
     {
-        protected BranchRepository(CarRentDbContext dbContext) : base(dbContext)
+        public BranchRepository(CarRentDbContext context)
+            : base(context)
         {
         }
 

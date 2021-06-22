@@ -1,0 +1,17 @@
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\bin\Debug\netcoreapp2.0\WAD.WebApp.7506.DAL.dll
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.csprojAssemblyReference.cache
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.AssemblyInfoInputs.cache
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.AssemblyInfo.cs
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.csproj.CoreCompileInputs.cache
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\bin\Debug\netcoreapp2.0\appsettings.Development.json
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\bin\Debug\netcoreapp2.0\appsettings.json
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\bin\Debug\netcoreapp2.0\WAD.WebApp.7506.deps.json
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\bin\Debug\netcoreapp2.0\WAD.WebApp.7506.runtimeconfig.json
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\bin\Debug\netcoreapp2.0\WAD.WebApp.7506.runtimeconfig.dev.json
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\bin\Debug\netcoreapp2.0\WAD.WebApp.7506.dll
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\bin\Debug\netcoreapp2.0\WAD.WebApp.7506.pdb
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\bin\Debug\netcoreapp2.0\WAD.WebApp.7506.DAL.pdb
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.csproj.CopyComplete
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.dll
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.pdb
+d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.genruntimeconfig.cache

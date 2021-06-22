@@ -3,7 +3,6 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WAD.WebApp._7506.DAL;
 
 namespace WAD.WebApp._7506.DAL.Migrations
@@ -91,7 +90,6 @@ namespace WAD.WebApp._7506.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Branch");
                 });
 #pragma warning restore 612, 618
         }

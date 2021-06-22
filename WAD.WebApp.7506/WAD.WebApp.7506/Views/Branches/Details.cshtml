@@ -1,0 +1,36 @@
+﻿@model WAD.WebApp._7506.DAL.DTO.Branch
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Branch</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BranchName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BranchName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BranchEmail)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BranchEmail)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BranchAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BranchAddress)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.BranchId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

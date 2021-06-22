@@ -1,0 +1,39 @@
+﻿@model WAD.WebApp._7506.DAL.DTO.Branch
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Branch</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BranchName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BranchName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BranchEmail)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BranchEmail)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BranchAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BranchAddress)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="BranchId" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

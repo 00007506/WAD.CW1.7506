@@ -13,7 +13,7 @@ namespace WAD.WebApp._7506.DAL.Repositories
         {
         }
 
-        public Task CreateAsync(Branch emp)
+        public Task CreateAsync(Branch branch)
         {
             throw new NotImplementedException();
         }
@@ -38,7 +38,7 @@ namespace WAD.WebApp._7506.DAL.Repositories
             throw new NotImplementedException();
         }
 
-        public Task UpdateAsync(Branch emp)
+        public Task UpdateAsync(Branch branch)
         {
             throw new NotImplementedException();
         }

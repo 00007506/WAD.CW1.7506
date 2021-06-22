@@ -26,6 +26,8 @@ namespace WAD.WebApp._7506
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+            services.AddSingleton(Configuration);
             services.AddScoped<IRepository<Employee>, EmployeeRepository>();
             services.AddScoped<IRepository<Branch>, BranchRepository>();
             services.AddDbContext<CarRentDbContext>(

@@ -18,7 +18,7 @@ namespace WAD.WebApp._7506
         }
 
         public static IWebHostBuilder CreateHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
+            WebHost.CreateDefaultBuilder(args).UseUrls("http://localhost:5000")
                 .UseStartup<Startup>();
     }
 }

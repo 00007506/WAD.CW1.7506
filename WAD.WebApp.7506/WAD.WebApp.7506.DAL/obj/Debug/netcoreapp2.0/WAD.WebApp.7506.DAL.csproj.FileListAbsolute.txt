@@ -1,4 +1,3 @@
-d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506.DAL\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.DAL.csprojAssemblyReference.cache
 d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506.DAL\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.DAL.AssemblyInfoInputs.cache
 d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506.DAL\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.DAL.AssemblyInfo.cs
 d:\9sem\wad\WAD.CW1.7506\WAD.WebApp.7506\WAD.WebApp.7506.DAL\obj\Debug\netcoreapp2.0\WAD.WebApp.7506.DAL.csproj.CoreCompileInputs.cache

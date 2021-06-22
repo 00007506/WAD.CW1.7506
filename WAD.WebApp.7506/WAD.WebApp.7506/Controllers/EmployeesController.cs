@@ -48,7 +48,7 @@ namespace WAD.WebApp._7506.Controllers
         // GET: Employees/Create
         public IActionResult Create()
         {
-            ViewData["BranchId"] = new SelectList(_context.Branch, "BranchId", "BranchId");
+            ViewData["BranchId"] = new SelectList(_context.Branch, "BranchId", "BranchName");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace WAD.WebApp._7506.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BranchId"] = new SelectList(_context.Branch, "BranchId", "BranchId", employee.BranchId);
+            ViewData["BranchId"] = new SelectList(_context.Branch, "BranchId", "BranchName", employee.BranchId);
             return View(employee);
         }
 
@@ -82,7 +82,7 @@ namespace WAD.WebApp._7506.Controllers
             {
                 return NotFound();
             }
-            ViewData["BranchId"] = new SelectList(_context.Branch, "BranchId", "BranchId", employee.BranchId);
+            ViewData["BranchId"] = new SelectList(_context.Branch, "BranchId", "BranchName", employee.BranchId);
             return View(employee);
         }
 
@@ -118,7 +118,7 @@ namespace WAD.WebApp._7506.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BranchId"] = new SelectList(_context.Branch, "BranchId", "BranchId", employee.BranchId);
+            ViewData["BranchId"] = new SelectList(_context.Branch, "BranchId", "BranchName", employee.BranchId);
             return View(employee);
         }
 

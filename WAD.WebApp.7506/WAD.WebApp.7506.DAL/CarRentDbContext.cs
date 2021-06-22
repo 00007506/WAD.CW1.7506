@@ -12,10 +12,10 @@ namespace WAD.WebApp._7506.DAL
         }
         public CarRentDbContext(DbContextOptions<CarRentDbContext> options) : base(options)
         {
-            Database.EnsureCreated();
+            
         }
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
-        => options.UseSqlServer("DataSource=CarRent.db");
+        //protected override void OnConfiguring(DbContextOptionsBuilder options)
+        //=> options.UseSqlServer("DataSource=CarRent.db");
 
         public virtual DbSet<Employee> Employee { get; set; }
 
